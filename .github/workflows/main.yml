@@ -1,7 +1,6 @@
 name: deploy to lambda
 on: [push]
 jobs:
-
   deploy_zip:
     name: deploy lambda function
     runs-on: ubuntu-latest
