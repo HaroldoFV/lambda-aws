@@ -7,4 +7,4 @@ def lambda_handler(event, context):
     return {"statusCode": 200, "body": json.dumps(event)}
 
 
-lambda_handler("aauau", "test 4")
+lambda_handler("aauau", "test 5")
