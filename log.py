@@ -1,6 +1,6 @@
 import os
 
-region = os.environ["AWS_REGION"]
+region = os.environ["MINHA_VAR"]
 
 
 def log(message):
