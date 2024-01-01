@@ -3,7 +3,7 @@ import log
 
 
 def lambda_handler(event, context):
-    log.log(f"log de execução. event: {event}")
+    log.log(f"event: {event}")
     return {"statusCode": 200, "body": json.dumps(event)}
 
 

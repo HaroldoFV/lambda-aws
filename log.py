@@ -1,2 +1,8 @@
+import os
+
+region = os.environ["AWS_REGION"]
+
+
 def log(message):
-    print("Adicionando log via função", message)
+    print(region)
+    print(message)
